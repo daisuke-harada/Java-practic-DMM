@@ -1,1 +1,1 @@
-# Java-practic-DMM
+# Java-practice-DMM
