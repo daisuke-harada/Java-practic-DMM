@@ -1,17 +1,24 @@
 package practice;
 
-public class ThreadSample {
+public class ThreadSample implements Runnable {
+	int num;
 
-	public class ThreadSample implements Runnable {
-		int num;
-
-		// コンストラクタ
+	// コンストラクタ
 	public ThreadSample(int num) {
-        this.num = num;
-    }
+		this.num = num;
+	}
 
-		// runメソッドを作成
+	// runメソッドを作成
+	public void run() {
 		// Chapter15_4と同じようにループごとに1秒間スリープして表示
-		・・・
+		try {
+			// Thread.sleepは、指定したミリ秒間スリープするメソッド
+			Thread.sleep(1000);
+			// 1000ミリ秒（1秒）間スリープしてメッセージを表示
+			System.out.println("ThreadSample" + num + "のスレッド" + num + "回目");
+			// Thread.sleepの例外処理
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 }
