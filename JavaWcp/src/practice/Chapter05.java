@@ -10,13 +10,11 @@ public class Chapter05 {
 	  System.out.println(a);
 	  System.out.println(boolean1);
 	  System.out.println(boolean2);
-	  
+
 	  Integer i = Integer.valueOf(3);
 	  System.out.println(i);
 	  Float f = Float.valueOf(1.431f);
 	  System.out.println(f);
-	  Character c = Character.valueOf('あ');
-	  System.out.println(c);
 	  int[] j = new int[5];
 	  j[4] = 43;
 	  System.out.println(j[4]);

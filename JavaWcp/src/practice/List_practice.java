@@ -30,6 +30,10 @@ public class List_practice {
 		// listに何要素入っているか確認する。
 		System.out.println(list1.size());
 
+		for (String prefecture: list1) {
+			System.out.println(prefecture);
+		}
+
 		// りんご要素を削除する。
 		list1.remove("りんご");
 		list1.add(0, "グレープ");
