@@ -1,13 +1,14 @@
-package practice;
+package ChapterEX5;
 
-public class Co {
+public class Do {
 	public static void main(String[] args) {
-		A a = new A() {
+		B b = new B() {
+
 			@Override
 			public String hello() {
 				return "Hello B!";
 			}
 		};
-		System.out.println(a.hello());
+		System.out.println(b.hello());
 	}
 }
