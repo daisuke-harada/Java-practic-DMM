@@ -13,6 +13,7 @@ public class EXAM_Do {
 		fruits.add(new Fruit("いちご", 4));
 		fruits.add(new Fruit("メロン", 8));
 		fruits.add(new Fruit("ぶどう", 20));
+		fruits.add(new Fruit("イチゴ", 40));
 		long count = fruits.stream().filter(f -> f.quantity <=10).count();
 		System.out.println(count);
 
