@@ -26,7 +26,7 @@ public class practice1_5 {
 		for (String string : s) {
 
 			// 要素を出力
-			System.out.println(str);
+			System.out.println(string);
 
 		}
 	}
