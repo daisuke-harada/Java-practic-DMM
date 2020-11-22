@@ -23,7 +23,7 @@ public class practice1_5 {
 
 		// sは配列の扱い
 		// sの要素の数だけfor文で処理を繰り返す
-		for (String str : s) {
+		for (String string : s) {
 
 			// 要素を出力
 			System.out.println(str);
