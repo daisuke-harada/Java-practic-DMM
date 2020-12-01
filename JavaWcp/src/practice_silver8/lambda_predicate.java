@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class practice_8_5 {
+public class lambda_predicate {
 	public static void main(String[] args) {
 		List<Sample> list = Arrays.asList(
 				new Sample(10),
