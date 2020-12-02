@@ -1,4 +1,4 @@
-package practice_silver8;
+package practice_silver_8;
 
 public class practice_8_1 {
 	public static void main(String[] args) {

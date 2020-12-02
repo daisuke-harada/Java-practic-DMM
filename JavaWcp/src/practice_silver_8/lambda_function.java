@@ -1,4 +1,4 @@
-package practice_silver8;
+package practice_silver_8;
 
 import java.util.function.Function;
 
