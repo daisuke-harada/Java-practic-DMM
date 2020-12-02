@@ -14,6 +14,7 @@ public class practice_comparator {
 		studentarray[5] = new Student("さくらぎたかはる", 26, 'f', 163);
 
 		// Comparatorは１が返ってくると第二引数と第一引数を入れ替える。-1が返ってくるとそのままにする。
+		// 第二引数から第一引数を引かせると大きい数の場合はプラスになるので、自分より小さい数と入れ替わることができる。
 		Arrays.sort(studentarray, new Comparator<Student>() {
 			public int compare(Student student1, Student student2) {
 				return student1.getAge() - student2.getAge();
