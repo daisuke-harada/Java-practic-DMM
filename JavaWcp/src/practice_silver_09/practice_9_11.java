@@ -2,7 +2,7 @@ package practice_silver_09;
 
 import java.util.ArrayList;
 
-public class practice_8_11 {
+public class practice_9_11 {
 	public static void main(String[] args) {
 		ArrayList<Item> list = new ArrayList<>();
 		list.add(new Item("A", 100));
