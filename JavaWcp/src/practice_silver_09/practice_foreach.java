@@ -23,9 +23,11 @@ public class practice_foreach {
 //		list.forEach(logic);
 
 		//標準クラスライブラリのメソッド参照
+		// Systemクラスのstaticなoutフィールドを使い、printlnメソッドを使用している
 //		Consumer<String> logic = System.out::println;
 //		list.forEach(logic);
 		//さらに省略
+
 		list.forEach(System.out::println);
 	}
 
