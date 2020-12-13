@@ -5,5 +5,7 @@ public class Main_3_10 {
 		Object a = new Sample_3_10(10);
 		Object b = new Sample_3_10(10);
 		System.out.println(a.equals(b));
+		Animal c = new Animal("ライオン");
+		Animal d = new Animal("ワニ");
 	}
 }
