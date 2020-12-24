@@ -7,5 +7,6 @@ public class Sample36 {
 		final String val = "Hello, Lambda";
 		Consumer<String> func = (a) -> System.out.println(val + a);
 		func.accept(" & good");
+
 	}
 }
