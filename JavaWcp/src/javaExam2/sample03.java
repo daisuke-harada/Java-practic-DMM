@@ -8,9 +8,10 @@ public class sample03 {
 		float b = 10.0f;
 		double c = 20;
 
-		a = (int)b;
-		b = a;
-		c = b;
+//		a = (int)b;
+//		b = a;
+//		c = b;
 		c = a;
+		System.out.println(c);
 	}
 }
