@@ -3,6 +3,7 @@ package javaExam1;
 public class sample1_26 {
 	static double c;
 	static float d;
+	static char g;
 	public static void main(String[] args) {
 		short b = (short) 'b';
 		System.out.println(b);
@@ -16,5 +17,9 @@ public class sample1_26 {
 		d = f;
 		System.out.println(c);
 		System.out.println(d);
+		g = (char)a;
+		System.out.println(g);
+		g = (char)f;
+		System.out.println(g);
 	}
 }
